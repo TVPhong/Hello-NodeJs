@@ -23,7 +23,7 @@ services:
       - DB_HOST=mysql-server
       - DB_USER=root
       - DB_PASS=123456
-    image: registry.gitlab.com/xzhoang/nodejsmysql
+    image: registry.gitlab.com/tvphong/app-demo
     container_name: notes-api-dev
     restart: always
     ports:
